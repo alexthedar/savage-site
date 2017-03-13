@@ -1,0 +1,184 @@
+fieldset {
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  font-weight: 600;
+  margin-bottom: $small-spacing / 2;
+  padding: 0;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: $small-spacing / 2;
+}
+
+input,
+select,
+textarea {
+  display: block;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+}
+
+#{$all-text-inputs} {
+  appearance: none;
+  color: $dark;
+  background-color: $pale;
+  border: 1px solid $dark;
+  border-radius: $base-border-radius;
+  // box-shadow: $form-box-shadow;
+  box-sizing: border-box;
+  margin-bottom: $small-spacing;
+  padding: $base-spacing / 3;
+  transition: border-color $base-duration $base-timing;
+  width: 100%;
+  outline: none;
+
+  &:hover {
+    // box-shadow: 0 1px 3px $pale;
+    box-shadow: inset 0 0 1px 1px $light-teal;
+  }
+
+  &:focus {
+    // border-color: $light-teal;
+    box-shadow: $form-box-shadow;
+  }
+
+  &:disabled {
+    background-color: shade($base-background-color, 5%);
+    cursor: not-allowed;
+
+    &:hover {
+      // border: shade($action-color, 20%);
+    }
+  }
+
+  &::placeholder {
+    color: red;
+  }
+}
+
+textarea {
+  resize: vertical;
+
+}
+
+
+[type="checkbox"],
+[type="radio"] {
+
+  display: inline;
+  margin-right: $small-spacing / 2;
+}
+
+[type="file"] {
+  margin-bottom: $small-spacing;
+  width: 100%;
+}
+
+select {
+  margin-bottom: $small-spacing;
+  width: 100%;
+  outline: none;
+  &:hover {
+    border-color: $light-teal;
+    box-shadow: inset 0 0 1px 1px $light-teal;
+  }
+}
+
+
+$custom-radio-size:                 1.5em;
+$custom-check-size:                 1em;
+$half-custom-radio-size:            $custom-radio-size / 2;
+$custom-radio-border-width:         1px;
+$custom-radio-inset-shadow:         inset 0 .1em 1px -.1em rgba(0,0,0,.3);
+$custom-radio-pip-color:            $light-teal;
+
+// States
+$custom-radio-unchecked-bg:         $pale;
+$custom-radio-unchecked-border:     $dark;
+
+$custom-radio-checked-bg:           $light-red;
+$custom-radio-checked-border:       $custom-radio-pip-color;
+
+$custom-radio-active-inset-shadow:  inset 0 0 2px 3px rgba(0,0,0,.1);
+
+$custom-radio-focus-shadow:         0 0 0 2px transparentize($custom-radio-pip-color, .5);
+
+$custom-radio-disabled-bg:          lighten(black, 91.8%);
+$custom-radio-disabled-pip-color:   lighten(black, 80%);
+
+input[type="radio"] {
+  position: relative;
+  display: inline-block;
+  top: $half-custom-radio-size - $base-font-size/2;
+
+  border-radius: 100%;
+  outline: none !important;
+  -webkit-appearance: none;
+
+  // Radio
+  &::before {
+    display: block;
+    content: '';
+    background: $custom-radio-unchecked-bg;
+    border: $custom-radio-border-width solid $custom-radio-unchecked-border;
+    border-radius: 50%;
+    position: relative;
+    top:  $custom-radio-border-width*2;
+    left: $custom-radio-border-width*2;
+    width:  $custom-radio-size;
+    height: $custom-radio-size;
+  }
+
+  &:checked::before {
+    background: $custom-radio-checked-bg;
+    border-color: $custom-radio-checked-border;
+  }
+
+  &:disabled::before {
+    cursor: not-allowed;
+    background-color: $custom-radio-disabled-bg;
+    border-color: transparentize($custom-radio-unchecked-border, .2);
+  }
+}
+
+input[type="checkbox"] {
+  position: relative;
+  display: inline-block;
+  top: $half-custom-radio-size - $base-font-size/2;
+
+  border-radius: 100%;
+  outline: none !important;
+  -webkit-appearance: none;
+
+  // Check
+  &::before {
+    display: block;
+    content: '';
+    background: $custom-radio-unchecked-bg;
+    border: $custom-radio-border-width solid $custom-radio-unchecked-border;
+    // border-radius: 50%;
+    position: relative;
+    top:  $custom-radio-border-width*2;
+    left: $custom-radio-border-width*2;
+    width:  $custom-check-size;
+    height: $custom-check-size;
+  }
+
+  &:checked::before {
+    background: $custom-radio-checked-bg;
+    border-color: $custom-radio-checked-border;
+  }
+
+  &:disabled::before {
+    cursor: not-allowed;
+    background-color: $custom-radio-disabled-bg;
+    border-color: transparentize($custom-radio-unchecked-border, .2);
+  }
+}

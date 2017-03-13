@@ -1,0 +1,749 @@
+/* line 1, Users/Advocates/Sites/jordan-site/sass/plugins/base/_buttons.scss */
+button, [type='button'], [type='reset'], [type='submit'] {
+  appearance: none;
+  background-color: #ff2323;
+  border: 0;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.75em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 150ms ease;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+  /* line 22, Users/Advocates/Sites/jordan-site/sass/plugins/base/_buttons.scss */
+  button:hover, button:focus, [type='button']:hover, [type='button']:focus, [type='reset']:hover, [type='reset']:focus, [type='submit']:hover, [type='submit']:focus {
+    background-color: #cc1c1c;
+    color: #fff; }
+  /* line 28, Users/Advocates/Sites/jordan-site/sass/plugins/base/_buttons.scss */
+  button:disabled, [type='button']:disabled, [type='reset']:disabled, [type='submit']:disabled {
+    cursor: not-allowed;
+    opacity: 0.5; }
+    /* line 32, Users/Advocates/Sites/jordan-site/sass/plugins/base/_buttons.scss */
+    button:disabled:hover, [type='button']:disabled:hover, [type='reset']:disabled:hover, [type='submit']:disabled:hover {
+      background-color: #ff2323; }
+
+/* line 1, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+fieldset {
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+/* line 8, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+legend {
+  font-weight: 600;
+  margin-bottom: 0.375em;
+  padding: 0; }
+
+/* line 14, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.375em; }
+
+/* line 20, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+input,
+select,
+textarea {
+  display: block;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", sans-serif;
+  font-size: 1em; }
+
+/* line 28, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+[type='color'], [type='date'], [type='datetime'], [type='datetime-local'], [type='email'], [type='month'], [type='number'], [type='password'], [type='search'], [type='tel'], [type='text'], [type='time'], [type='url'], [type='week'], input:not([type]), textarea {
+  appearance: none;
+  color: #110E0E;
+  background-color: #f4f2f2;
+  border: 1px solid #110E0E;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-bottom: 0.75em;
+  padding: 0.5em;
+  transition: border-color 150ms ease;
+  width: 100%;
+  outline: none; }
+  /* line 42, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+  [type='color']:hover, [type='date']:hover, [type='datetime']:hover, [type='datetime-local']:hover, [type='email']:hover, [type='month']:hover, [type='number']:hover, [type='password']:hover, [type='search']:hover, [type='tel']:hover, [type='text']:hover, [type='time']:hover, [type='url']:hover, [type='week']:hover, input:not([type]):hover, textarea:hover {
+    box-shadow: inset 0 0 1px 1px #00d8d8; }
+  /* line 47, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+  [type='color']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='email']:focus, [type='month']:focus, [type='number']:focus, [type='password']:focus, [type='search']:focus, [type='tel']:focus, [type='text']:focus, [type='time']:focus, [type='url']:focus, [type='week']:focus, input:not([type]):focus, textarea:focus {
+    box-shadow: inset 0 0 1px 1px #ff2323; }
+  /* line 52, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+  [type='color']:disabled, [type='date']:disabled, [type='datetime']:disabled, [type='datetime-local']:disabled, [type='email']:disabled, [type='month']:disabled, [type='number']:disabled, [type='password']:disabled, [type='search']:disabled, [type='tel']:disabled, [type='text']:disabled, [type='time']:disabled, [type='url']:disabled, [type='week']:disabled, input:not([type]):disabled, textarea:disabled {
+    background-color: #4c4c4c;
+    cursor: not-allowed; }
+  /* line 61, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+  [type='color']::placeholder, [type='date']::placeholder, [type='datetime']::placeholder, [type='datetime-local']::placeholder, [type='email']::placeholder, [type='month']::placeholder, [type='number']::placeholder, [type='password']::placeholder, [type='search']::placeholder, [type='tel']::placeholder, [type='text']::placeholder, [type='time']::placeholder, [type='url']::placeholder, [type='week']::placeholder, input:not([type])::placeholder, textarea::placeholder {
+    color: red; }
+
+/* line 66, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+textarea {
+  resize: vertical; }
+
+/* line 72, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+[type="checkbox"],
+[type="radio"] {
+  display: inline;
+  margin-right: 0.375em; }
+
+/* line 79, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+[type="file"] {
+  margin-bottom: 0.75em;
+  width: 100%; }
+
+/* line 84, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+select {
+  margin-bottom: 0.75em;
+  width: 100%;
+  outline: none; }
+  /* line 88, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+  select:hover {
+    border-color: #00d8d8;
+    box-shadow: inset 0 0 1px 1px #00d8d8; }
+
+/* line 116, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+input[type="radio"] {
+  position: relative;
+  display: inline-block;
+  top: 0.25em;
+  border-radius: 100%;
+  outline: none !important;
+  -webkit-appearance: none; }
+  /* line 126, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+  input[type="radio"]::before {
+    display: block;
+    content: '';
+    background: #f4f2f2;
+    border: 1px solid #110E0E;
+    border-radius: 50%;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    width: 1.5em;
+    height: 1.5em; }
+  /* line 139, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+  input[type="radio"]:checked::before {
+    background: #ff2323;
+    border-color: #00d8d8; }
+  /* line 144, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+  input[type="radio"]:disabled::before {
+    cursor: not-allowed;
+    background-color: #eaeaea;
+    border-color: rgba(17, 14, 14, 0.8); }
+
+/* line 151, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+input[type="checkbox"] {
+  position: relative;
+  display: inline-block;
+  top: 0.25em;
+  border-radius: 100%;
+  outline: none !important;
+  -webkit-appearance: none; }
+  /* line 161, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+  input[type="checkbox"]::before {
+    display: block;
+    content: '';
+    background: #f4f2f2;
+    border: 1px solid #110E0E;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    width: 1em;
+    height: 1em; }
+  /* line 174, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+  input[type="checkbox"]:checked::before {
+    background: #ff2323;
+    border-color: #00d8d8; }
+  /* line 179, Users/Advocates/Sites/jordan-site/sass/plugins/base/_forms.scss */
+  input[type="checkbox"]:disabled::before {
+    cursor: not-allowed;
+    background-color: #eaeaea;
+    border-color: rgba(17, 14, 14, 0.8); }
+
+/* line 1, Users/Advocates/Sites/jordan-site/sass/plugins/base/_layout.scss */
+html {
+  box-sizing: border-box;
+  background: #505050; }
+
+/* line 6, Users/Advocates/Sites/jordan-site/sass/plugins/base/_layout.scss */
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+/* line 12, Users/Advocates/Sites/jordan-site/sass/plugins/base/_layout.scss */
+html,
+body {
+  height: 100%; }
+
+/* line 1, Users/Advocates/Sites/jordan-site/sass/plugins/base/_lists.scss */
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+/* line 8, Users/Advocates/Sites/jordan-site/sass/plugins/base/_lists.scss */
+dl {
+  margin: 0; }
+
+/* line 12, Users/Advocates/Sites/jordan-site/sass/plugins/base/_lists.scss */
+dt {
+  font-weight: 600;
+  margin: 0; }
+
+/* line 17, Users/Advocates/Sites/jordan-site/sass/plugins/base/_lists.scss */
+dd {
+  margin: 0; }
+
+/* line 1, Users/Advocates/Sites/jordan-site/sass/plugins/base/_media.scss */
+figure {
+  margin: 0; }
+
+/* line 5, Users/Advocates/Sites/jordan-site/sass/plugins/base/_media.scss */
+img,
+picture {
+  margin: 0;
+  max-width: 100%; }
+
+/* line 1, Users/Advocates/Sites/jordan-site/sass/plugins/base/_tables.scss */
+table {
+  border-collapse: collapse;
+  margin: 0.75em 0;
+  table-layout: fixed;
+  width: 100%; }
+
+/* line 8, Users/Advocates/Sites/jordan-site/sass/plugins/base/_tables.scss */
+th {
+  border-bottom: 1px solid #ff3d3d;
+  font-weight: 600;
+  padding: 0.75em 0;
+  text-align: left; }
+
+/* line 15, Users/Advocates/Sites/jordan-site/sass/plugins/base/_tables.scss */
+td {
+  border-bottom: 1px solid #00d8d8;
+  padding: 0.75em 0; }
+
+/* line 20, Users/Advocates/Sites/jordan-site/sass/plugins/base/_tables.scss */
+tr,
+td,
+th {
+  vertical-align: middle; }
+
+/* line 1, Users/Advocates/Sites/jordan-site/sass/plugins/base/_typography.scss */
+body {
+  color: #f4f2f2;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", sans-serif;
+  font-size: 1em;
+  line-height: 1.5; }
+
+/* line 8, Users/Advocates/Sites/jordan-site/sass/plugins/base/_typography.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", sans-serif;
+  font-size: 1.25em;
+  line-height: 1.2;
+  margin: 0 0 0.75em; }
+
+/* line 20, Users/Advocates/Sites/jordan-site/sass/plugins/base/_typography.scss */
+p {
+  margin: 0 0 0.75em; }
+
+/* line 24, Users/Advocates/Sites/jordan-site/sass/plugins/base/_typography.scss */
+a {
+  color: #ff2323;
+  text-decoration: none;
+  transition: color 150ms ease; }
+  /* line 29, Users/Advocates/Sites/jordan-site/sass/plugins/base/_typography.scss */
+  a:focus, a:active, a:hover {
+    color: #cc1c1c;
+    text-decoration: underline; }
+
+/* line 37, Users/Advocates/Sites/jordan-site/sass/plugins/base/_typography.scss */
+hr {
+  border-bottom: 1px solid #00d8d8;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: 1.5em 0; }
+
+/* line 2, Users/Advocates/Sites/jordan-site/sass/base/_common.scss */
+#hobbies {
+  clear: both; }
+
+/* FOOTER */
+/* line 4, Users/Advocates/Sites/jordan-site/sass/base/_footer.scss */
+footer {
+  clear: both;
+  margin: 0;
+  height: 100px;
+  line-height: 35px;
+  padding-top: .5em;
+  margin: 0;
+  background-color: #007272; }
+  /* line 14, Users/Advocates/Sites/jordan-site/sass/base/_footer.scss */
+  footer p {
+    margin: 0;
+    text-align: center; }
+  /* line 18, Users/Advocates/Sites/jordan-site/sass/base/_footer.scss */
+  footer div {
+    text-align: center;
+    font-size: 200%; }
+    /* line 22, Users/Advocates/Sites/jordan-site/sass/base/_footer.scss */
+    footer div a {
+      padding: .5em;
+      display: inline;
+      color: #00d8d8; }
+      /* line 26, Users/Advocates/Sites/jordan-site/sass/base/_footer.scss */
+      footer div a:hover {
+        color: #110E0E; }
+
+/* NAV */
+/* line 4, Users/Advocates/Sites/jordan-site/sass/base/_nav.scss */
+.noTransition {
+  -moz-transition: none;
+  -webkit-transition: none;
+  -o-transition: color 0 ease-in;
+  transition: none; }
+
+/* line 11, Users/Advocates/Sites/jordan-site/sass/base/_nav.scss */
+nav a {
+  color: #f4f2f2; }
+  /* line 13, Users/Advocates/Sites/jordan-site/sass/base/_nav.scss */
+  nav a:hover {
+    color: #110E0E; }
+
+/* line 18, Users/Advocates/Sites/jordan-site/sass/base/_nav.scss */
+.main-nav,
+.main {
+  position: relative; }
+
+/* line 25, Users/Advocates/Sites/jordan-site/sass/base/_nav.scss */
+.main-nav {
+  line-height: 50px;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  background: #bc0000;
+  height: 100px;
+  z-index: 150;
+  margin-bottom: -100px;
+  font-size: 30px;
+  text-align: center; }
+  /* line 26, Users/Advocates/Sites/jordan-site/sass/base/_nav.scss */
+  .main-nav span {
+    color: #f4f2f2;
+    display: block; }
+  /* line 30, Users/Advocates/Sites/jordan-site/sass/base/_nav.scss */
+  .main-nav ul {
+    display: none; }
+
+/* line 44, Users/Advocates/Sites/jordan-site/sass/base/_nav.scss */
+header,
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0; }
+
+/* line 51, Users/Advocates/Sites/jordan-site/sass/base/_nav.scss */
+.main-nav-scrolled {
+  background: #007272;
+  height: 80px;
+  font-size: 15px;
+  padding: 10px 20px; }
+  @media (min-width: 451px) {
+    /* line 57, Users/Advocates/Sites/jordan-site/sass/base/_nav.scss */
+    .main-nav-scrolled ul {
+      display: block; } }
+  @media (max-width: 449px) {
+    /* line 62, Users/Advocates/Sites/jordan-site/sass/base/_nav.scss */
+    .main-nav-scrolled #menu-icon {
+      display: block;
+      float: right; } }
+  /* line 67, Users/Advocates/Sites/jordan-site/sass/base/_nav.scss */
+  .main-nav-scrolled div {
+    display: inline;
+    float: left; }
+    /* line 70, Users/Advocates/Sites/jordan-site/sass/base/_nav.scss */
+    .main-nav-scrolled div span {
+      line-height: 30px;
+      display: block; }
+
+@media (max-width: 449px) {
+  /* line 78, Users/Advocates/Sites/jordan-site/sass/base/_nav.scss */
+  nav ul {
+    display: block;
+    float: right;
+    z-index: 1000;
+    position: absolute;
+    background: #5e5e5e;
+    padding: 10px;
+    right: 20px;
+    top: 60px;
+    border: 1px solid #f4f2f2;
+    width: 40%; }
+    /* line 89, Users/Advocates/Sites/jordan-site/sass/base/_nav.scss */
+    nav ul .menu {
+      display: none; }
+    /* line 92, Users/Advocates/Sites/jordan-site/sass/base/_nav.scss */
+    nav ul li {
+      list-style-type: none; }
+  /* line 96, Users/Advocates/Sites/jordan-site/sass/base/_nav.scss */
+  #menu-icon {
+    display: none;
+    width: 40px;
+    height: 60px;
+    background: url(../img/nav.png) center; } }
+
+@media (min-width: 451px) {
+  /* line 105, Users/Advocates/Sites/jordan-site/sass/base/_nav.scss */
+  nav ul {
+    float: right;
+    padding: 10px; }
+    /* line 108, Users/Advocates/Sites/jordan-site/sass/base/_nav.scss */
+    nav ul li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 0 20px; }
+      /* line 112, Users/Advocates/Sites/jordan-site/sass/base/_nav.scss */
+      nav ul li .res-menu {
+        display: none; } }
+
+/* Layout */
+/* line 2, Users/Advocates/Sites/jordan-site/sass/layouts/_layout.scss */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+/* line 8, Users/Advocates/Sites/jordan-site/sass/layouts/_layout.scss */
+body {
+  padding-top: 550px; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    /* line 8, Users/Advocates/Sites/jordan-site/sass/layouts/_layout.scss */
+    body {
+      padding-top: 350px; } }
+
+/* line 15, Users/Advocates/Sites/jordan-site/sass/layouts/_layout.scss */
+header {
+  z-index: -1;
+  height: 600px;
+  background-image: url("../img/indieband.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: cover;
+  overflow: hidden; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    /* line 15, Users/Advocates/Sites/jordan-site/sass/layouts/_layout.scss */
+    header {
+      padding-top: 400px; } }
+
+/* line 30, Users/Advocates/Sites/jordan-site/sass/layouts/_layout.scss */
+.row {
+  display: flex; }
+
+/* line 33, Users/Advocates/Sites/jordan-site/sass/layouts/_layout.scss */
+.top-pad-row {
+  display: flex;
+  padding-top: 1em; }
+
+/* line 38, Users/Advocates/Sites/jordan-site/sass/layouts/_layout.scss */
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 150%;
+  width: 100%;
+  text-align: center;
+  color: #110E0E;
+  font-weight: bold; }
+
+/* line 48, Users/Advocates/Sites/jordan-site/sass/layouts/_layout.scss */
+#main {
+  background: #505050;
+  padding-top: 100px;
+  padding-bottom: 50px; }
+
+/* line 54, Users/Advocates/Sites/jordan-site/sass/layouts/_layout.scss */
+.one-half, #swift-logo, #objc-logo, #linkedin, #github {
+  width: 50%;
+  float: left; }
+
+/* line 60, Users/Advocates/Sites/jordan-site/sass/layouts/_layout.scss */
+.res-half {
+  width: 50%;
+  float: left; }
+  @media (max-width: 449px) {
+    /* line 60, Users/Advocates/Sites/jordan-site/sass/layouts/_layout.scss */
+    .res-half {
+      width: 100%; } }
+
+/* line 67, Users/Advocates/Sites/jordan-site/sass/layouts/_layout.scss */
+.res-fourth {
+  width: 25%;
+  float: left; }
+  @media (max-width: 449px) {
+    /* line 67, Users/Advocates/Sites/jordan-site/sass/layouts/_layout.scss */
+    .res-fourth {
+      width: 50%; } }
+
+/* line 76, Users/Advocates/Sites/jordan-site/sass/layouts/_layout.scss */
+.one-fourth {
+  width: 25%;
+  float: left;
+  text-align: center; }
+
+/* line 83, Users/Advocates/Sites/jordan-site/sass/layouts/_layout.scss */
+.break {
+  clear: both; }
+
+/*HOBBIES*/
+/* line 23, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+#arduino, #dj, #raspberry-pi, #camping, #surfing, #mushroom, #rock-trains, #motorcycle {
+  height: 5em;
+  line-height: 5em;
+  margin-top: 1em; }
+
+/* line 33, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+#hobby-title {
+  margin: 0;
+  padding: .25em;
+  font-size: 150%;
+  width: 100%;
+  text-align: center;
+  color: #110E0E;
+  background-color: #bc0000;
+  font-weight: bold;
+  margin-bottom: 1em; }
+
+/* line 38, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+#arduino, #dj, #raspberry-pi, #camping, #surfing, #mushroom, #rock-trains, #motorcycle {
+  text-align: center; }
+
+/* line 43, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+#motorcycle {
+  background-image: url("../img/motorcycles.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain; }
+  /* line 8, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  #motorcycle span {
+    display: none; }
+  /* line 11, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  #motorcycle:hover {
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    background: rgba(255, 35, 35, 0.5); }
+    /* line 14, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+    #motorcycle:hover span {
+      font-size: 3vmin;
+      display: block; }
+
+/* line 47, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+#dj {
+  background-image: url("../img/native+instruments.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain; }
+  /* line 8, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  #dj span {
+    display: none; }
+  /* line 11, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  #dj:hover {
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    background: rgba(0, 216, 216, 0.5); }
+    /* line 14, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+    #dj:hover span {
+      font-size: 3vmin;
+      display: block; }
+
+/* line 51, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+#camping {
+  background-image: url("../img/camping.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain; }
+  /* line 8, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  #camping span {
+    display: none; }
+  /* line 11, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  #camping:hover {
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    background: rgba(255, 35, 35, 0.5); }
+    /* line 14, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+    #camping:hover span {
+      font-size: 3vmin;
+      display: block; }
+
+/* line 55, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+#mushroom {
+  background-image: url("../img/mushrooming.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain; }
+  /* line 8, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  #mushroom span {
+    display: none; }
+  /* line 11, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  #mushroom:hover {
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    background: rgba(0, 216, 216, 0.5); }
+    /* line 14, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+    #mushroom:hover span {
+      font-size: 3vmin;
+      display: block; }
+
+/* line 59, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+#arduino {
+  clear: both;
+  background-image: url("../img/arduino400.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain; }
+  /* line 8, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  #arduino span {
+    display: none; }
+  /* line 11, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  #arduino:hover {
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    background: rgba(0, 216, 216, 0.5); }
+    /* line 14, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+    #arduino:hover span {
+      font-size: 3vmin;
+      display: block; }
+
+/* line 64, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+#raspberry-pi {
+  background-image: url("../img/rpi-400.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain; }
+  /* line 8, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  #raspberry-pi span {
+    display: none; }
+  /* line 11, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  #raspberry-pi:hover {
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    background: rgba(255, 35, 35, 0.5); }
+    /* line 14, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+    #raspberry-pi:hover span {
+      font-size: 3vmin;
+      display: block; }
+
+/* line 70, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+#rock-trains {
+  clear: both;
+  text-align: center;
+  width: 100%;
+  float: left;
+  background-image: url("../img/throwing-rocks-trains.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  margin-bottom: 1.5em; }
+  /* line 8, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  #rock-trains span {
+    display: none; }
+  /* line 11, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  #rock-trains:hover {
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    background: rgba(17, 14, 14, 0.5); }
+    /* line 14, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+    #rock-trains:hover span {
+      font-size: 3vmin;
+      display: block; }
+
+/* emplyment*/
+/* line 3, Users/Advocates/Sites/jordan-site/sass/modules/_employment.scss */
+#work-history {
+  clear: both;
+  padding: 0 0 1em 0; }
+
+/* line 9, Users/Advocates/Sites/jordan-site/sass/modules/_employment.scss */
+#work-title {
+  margin: 0;
+  padding: .25em;
+  font-size: 150%;
+  width: 100%;
+  text-align: center;
+  color: #f4f2f2;
+  background-color: #007272;
+  font-weight: bold; }
+
+/* line 15, Users/Advocates/Sites/jordan-site/sass/modules/_employment.scss */
+.company-title {
+  text-align: center; }
+
+/* line 22, Users/Advocates/Sites/jordan-site/sass/modules/_employment.scss */
+.job {
+  padding: 1em;
+  margin-bottom: 1.5em; }
+
+/* line 26, Users/Advocates/Sites/jordan-site/sass/modules/_employment.scss */
+#job1 {
+  padding-right: 1em; }
+
+/*Apple Lang*/
+/* line 3, Users/Advocates/Sites/jordan-site/sass/modules/_apple-lang.scss */
+#apple-lang {
+  text-align: center; }
+  /* line 5, Users/Advocates/Sites/jordan-site/sass/modules/_apple-lang.scss */
+  #apple-lang h3 {
+    padding: 1em; }
+  /* line 9, Users/Advocates/Sites/jordan-site/sass/modules/_apple-lang.scss */
+  #apple-lang img {
+    height: 5em; }
+
+/* line 14, Users/Advocates/Sites/jordan-site/sass/modules/_apple-lang.scss */
+#swift-logo {
+  padding: 2em 2em 1em 1em; }
+
+/* line 19, Users/Advocates/Sites/jordan-site/sass/modules/_apple-lang.scss */
+#objc-logo {
+  padding: 2em 1em 1em 2em; }
+
+/*personal*/
+/*projects*/
+/* line 3, Users/Advocates/Sites/jordan-site/sass/modules/_projects.scss */
+#project-title {
+  margin: 0;
+  padding: .25em;
+  font-size: 150%;
+  width: 100%;
+  text-align: center;
+  color: #f4f2f2;
+  background-color: #bc0000;
+  font-weight: bold; }
+
+/*Apple Lang*/
+/* line 3, Users/Advocates/Sites/jordan-site/sass/modules/_social.scss */
+#social {
+  text-align: center;
+  font-size: 500%; }
+  /* line 6, Users/Advocates/Sites/jordan-site/sass/modules/_social.scss */
+  #social a {
+    color: #00d8d8; }
+    /* line 8, Users/Advocates/Sites/jordan-site/sass/modules/_social.scss */
+    #social a:hover {
+      color: #110E0E; }
+
+/*# sourceMappingURL=app.css.map */

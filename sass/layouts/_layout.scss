@@ -1,0 +1,100 @@
+/* Layout */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  padding-top: 550px;
+  @include media('retina2x'){
+    padding-top: 350px;
+  }
+}
+
+header {
+  z-index: -1;
+  height: 600px;
+  @include media('retina2x'){
+    padding-top: 400px;
+  }
+  background-image: url('../img/indieband.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: cover;
+  overflow: hidden;
+  // padding-top: 50px;
+}
+
+.row{
+  display: flex;
+}
+.top-pad-row{
+  display: flex;
+  padding-top: 1em;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 150%;
+  width: 100%;
+  text-align: center;
+  color: $dark;
+  font-weight: bold;
+}
+
+#main {
+  background: $dark-grey;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.one-half {
+  width: 50%;
+  float: left;
+}
+
+
+.res-half {
+  width: 50%;
+  float: left;
+  @include media('<phone'){
+    width: 100%
+  }
+}
+.res-fourth {
+  width: 25%;
+  float: left;
+  @include media('<phone'){
+    width: 50%
+  }
+}
+
+
+.one-fourth {
+  width: 25%;
+  float: left;
+  text-align: center;
+
+}
+
+.break {
+  clear: both;
+}
+// article {
+//   background: $dark-grey;
+//   float: left;
+//   margin: 0 auto;
+//   width: 50%;
+//   height: auto;
+// }
+//
+// aside {
+//   background: $dark-grey;
+//   margin: 0 auto;
+//   width: 50%;
+//   float: right;
+//   height: auto;
+// }

@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box;
+  background: $dark-grey;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}

@@ -1,0 +1,28 @@
+/* emplyment*/
+
+#work-history {
+  clear: both;
+  padding: 0 0 1em 0;
+  // @extend %section-set;
+}
+
+#work-title {
+  @include section-title($pale, $teal)
+  // padding: 0 0 1em 0;
+
+}
+
+.company-title{
+  text-align: center;
+}
+
+.desc {
+  // padding: .5em 1em 2em 1em;
+}
+.job {
+  padding: 1em;
+  margin-bottom: 1.5em;
+}
+#job1{
+  padding-right: 1em;
+}

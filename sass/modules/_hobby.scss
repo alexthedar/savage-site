@@ -1,0 +1,77 @@
+/*HOBBIES*/
+
+@mixin hobby-img ($url, $bckclr) {
+  background-image: url('../img/'+$url+'.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  span {
+    display: none;
+  }
+  &:hover {
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    span {
+      font-size: 3vmin;
+      display: block;
+    }
+    background: transparentize($bckclr, .5);
+  }
+}
+
+
+%hobby-box {
+  height: 5em;
+  line-height: 5em;
+  margin-top: 1em;
+}
+
+#hobbies {
+  @extend %section-set;
+}
+
+#hobby-title {
+  @include section-title ($dark, $red)
+  margin-bottom: 1em;
+}
+
+#arduino, #dj, #raspberry-pi, #camping, #surfing, #mushroom, #rock-trains, #motorcycle {
+  @extend %hobby-box;
+  text-align: center;
+}
+
+#motorcycle {
+  @include hobby-img('motorcycles', $light-red);
+}
+
+#dj {
+  @include hobby-img('native+instruments', $light-teal);
+}
+
+#camping {
+  @include hobby-img('camping', $light-red);
+}
+
+#mushroom {
+  @include hobby-img('mushrooming', $light-teal);
+}
+
+#arduino {
+  clear: both;
+  @include hobby-img('arduino400', $light-teal);
+}
+
+#raspberry-pi {
+  @include hobby-img('rpi-400', $light-red);
+}
+// #surfing {
+//   @include hobby-img('surfing', $light-red);
+// }
+#rock-trains {
+  clear: both;
+  text-align: center;
+  width: 100%;
+  float: left;
+  @include hobby-img('throwing-rocks-trains', $dark);
+  margin-bottom: 1.5em;
+}

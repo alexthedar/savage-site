@@ -1,0 +1,12 @@
+// GLOBAL MIXINS
+
+@mixin section-title ($textclr, $bckclr) {
+  margin: 0;
+  padding: .25em;
+  font-size: 150%;
+  width: 100%;
+  text-align: center;
+  color: $textclr;
+  background-color: $bckclr;
+  font-weight: bold;
+}

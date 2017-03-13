@@ -1,34 +1,221 @@
 <!DOCTYPE html>
 <html>
-  <head>
 
-  <!-- Meta tags -->
+<head>
+
+    <!-- Meta tags -->
     <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Jordan Carlson, iOS Developer, Personal Site ">
+    <meta name="keywords" content="Jordan Carlson, iOS, apple, developer">
+    <meta name="author" content="Alexthedar">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- End Meta tags -->
+    <!-- End Meta tags -->
 
-    <title></title>
+    <title>Jordan Carlson | iOS Developer</title>
 
     <!-- CSS -->
+    <!-- GOOGLE FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600italic,600,700,700italic,900,300italic,300,200italic,200' rel='stylesheet' type='text/css'>
 
     <!-- Main -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/app.css">
-  <!-- End CSS -->
-  </head>
-  <body>
+    <!-- End CSS -->
+</head>
+
+<body>
+    <header>
+        <!-- <img src="img/indieband.jpeg" /> -->
+        <!-- background image used for initial push down -->
+    </header>
+
+    <nav class="main-nav">
+        <div>
+            <a href="index.html" id="name">
+                <span>Jordan Carlson</span>
+                <span>iOS Developer</span>
+            </a>
+        </div>
+
+        <!-- Mobile Menu Icon -->
+        <a href="#" id="menu-icon"></a>
+
+        <!-- Global Menu Items -->
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/jordan-carlson/" target="_blank">
+              <span class="menu"><i class="fa fa-linkedin"></i></span>
+              <span class="res-menu">Linkedin</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/savage-j" target="_blank">
+              <span class="menu"><i class="fa fa-github"></i></span>
+              <span class="res-menu">Github</span>
+            </a>
+          </li>
+            <li>
+              <a href="#">
+              <span class="menu"><i class="fa fa-envelope-o"></i></span>
+              <span class="res-menu">Email</span>
+            </a>
+          </li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Projects</a></li>
+        </ul>
+    </nav>
+
+    <div id="main">
+      <!-- for sticky nav -->
+      <section class="inner-wrapper" id="social">
+          <article class="one-half" id="linkedin">
+            <a href="https://www.linkedin.com/in/jordan-carlson/" target="_blank">
+              <td><i class="fa fa-linkedin"></i></td>
+            </a>
+              <!-- <td><img src="img/swift_logo.png" /></td>
+              <h3>SWIFT</h3> -->
+          </article>
+
+          <article class="one-half" id="github">
+            <a href="https://github.com/savage-j" target="_blank">
+              <td><i class="fa fa-github"></i></td>
+            </a>
+              <!-- <td><img src="img/obj-c.png" /></td>
+              <h3>OBJECTIVE-C</h3> -->
+          </article>
+      </section>
+      <!-- apple lang end -->
+
+      <div id="personal">
+          <article id="about" >
+              <h4>About Jordan Carlson</h4>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <p>
+                  <button type="button" id="contact-button" href="#">Contact &rarr;</button>
+              </p>
+          </article>
+          <aside >
+              <img src="http://lorempixel.com/400/400/people/" />
+          </aside>
+          <article >
+              <img src="http://lorempixel.com/400/400/nature/" />
+          </article>
+          <aside id="tribe" >
+              <h3>Yurok. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h3>
+              <a href="#" target="_blank">Yurok Link</a>
+          </aside>
+      </div>
+      <!-- end personal -->
+
+      <section id="projects">
+          <div id="project-title">Projects <i class="fa fa-code"></i></div>
+          <!-- <td><i class="fa fa-code"></i></td> -->
+          <div class="row">
+            <article class="res-half" id="project1">
+                <h4>Title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <a href="#" target="_blank">Link</a>
+            </article>
+            <aside class="res-half">
+                <img src="http://lorempixel.com/400/400/sports/" />
+            </aside>
+          </div>
+          <div class="row">
+            <article class="res-half">
+                <img src="http://lorempixel.com/400/400/cats/" />
+            </article>
+            <article class="res-half" id="project2">
+                <h4>Title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <a href="#" target="_blank">Link</a>
+            </article>
+          </div>
+      </section>
+      <!-- end projects -->
+
+      <div id="work-history">
+          <div id="work-title">Employment</div>
+          <!-- <div class="row"> -->
+          <article class="res-half job" id="job1">
+              <h4 class="company-title"><a href="#" target="_blank">Company</a></h4>
+              <p ><strong>Title</strong></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </article>
+          <article class="res-half job" id="job2">
+              <h4 class="company-title"><a href="#" target="_blank">Company</a></h4>
+              <p><strong>Title</strong></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </article>
+          <!-- </div> -->
+      </div>
+      <!-- end work history -->
+    </div>
+    <!-- end main for sticky nav -->
 
 
+    <section id="hobbies">
+        <div id="hobby-title">
+            HOBBIES
+        </div>
+        <!-- <div class="row"> -->
+            <section class="res-fourth" id="motorcycle">
+                <span>MOTORCYCLES</span>
+            </section>
+            <section class="res-fourth" id="dj">
+                <span>DJ</span>
+            </section>
+            <section class="res-fourth" id="camping">
+                <span>CAMPING</span>
+            </section>
+            <section class="res-fourth" id="mushroom">
+                <span>MUSHROOMS</span>
+            </section>
+        <!-- </div> -->
+        <!-- <div class="row"> -->
+            <section class="one-half" id="arduino">
+                <span>ARDUINO</span>
+            </section>
+            <section class="one-half" id="raspberry-pi">
+                <span>RASPBERRY PI</span>
+            </section>
+        <!-- </div> -->
+        <!-- <div class="row"> -->
+            <section id="rock-trains">
+                <a href="http://www.imdb.com/title/tt1478620/" target="_blank">
+                    <span>THROWING ROCKS AT TRAINS</span>
+                </a>
+            </section>
+        <!-- </div> -->
+    </section>
+    <!-- end hobbies -->
 
 
-  <!-- JS -->
+    <footer>
+        <p>&copy; Jordan Carlson</p>
+        <!-- <span id="social-links"> -->
+        <div>
+          <a href="https://www.linkedin.com/in/jordan-carlson/" target="_blank"><i class="fa fa-linkedin"></i></a>
+          <a href="https://github.com/savage-j" target="_blank"><i class="fa fa-github"></i></a>
+          <!-- <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li> -->
+        </div>
+        <!-- </span> -->
+      </div>
+    </footer>
+    <!-- end second footer -->
+
+    <!-- JS -->
 
     <!-- main -->
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
     <script type="text/javascript" src="js/vendor.js"></script>
 
-  <!-- End JS -->
+    <!-- End JS -->
 
-  </body>
+</body>
+
 </html>

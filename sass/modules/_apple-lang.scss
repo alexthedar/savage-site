@@ -1,0 +1,22 @@
+/*Apple Lang*/
+
+#apple-lang {
+  text-align: center;
+  h3 {
+    // @extend %no-m-or-p;
+    padding: 1em;
+  }
+  img {
+    height: 5em
+  }
+}
+
+#swift-logo {
+  @extend .one-half;
+   padding: 2em 2em 1em 1em;
+}
+
+#objc-logo {
+  @extend .one-half;
+  padding: 2em 1em 1em 2em;
+}

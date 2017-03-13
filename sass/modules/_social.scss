@@ -1,0 +1,30 @@
+/*Apple Lang*/
+
+#social {
+  text-align: center;
+  font-size: 500%;
+  a{
+    color: $light-teal;
+    &:hover {
+      color: $dark;
+    }
+  }
+
+  // h3 {
+  //   // @extend %no-m-or-p;
+  //   padding: 1em;
+  // }
+  // img {
+  //   height: 5em
+  // }
+}
+
+#linkedin {
+  @extend .one-half;
+  //  padding: 2em 2em 1em 1em;
+}
+
+#github {
+  @extend .one-half;
+  // padding: 2em 1em 1em 2em;
+}
