@@ -18,3 +18,39 @@
     width: 100%
   }
 }
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+  > .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@mixin div-img ($url, $bckclr) {
+  background-image: url('../img/'+$url+'.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  span {
+    display: none;
+  }
+  &:hover {
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    span {
+      font-size: 3vmin;
+      display: block;
+    }
+    background: transparentize($bckclr, .5);
+  }
+}

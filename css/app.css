@@ -516,13 +516,13 @@ header {
   clear: both; }
 
 /*HOBBIES*/
-/* line 23, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+/* line 6, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
 #arduino, #dj, #raspberry-pi, #camping, #surfing, #mushroom, #rock-trains, #motorcycle {
   height: 5em;
   line-height: 5em;
   margin-top: 1em; }
 
-/* line 33, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+/* line 16, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
 #hobby-title {
   margin: 0;
   padding: .25em;
@@ -534,126 +534,126 @@ header {
   font-weight: bold;
   margin-bottom: 1em; }
 
-/* line 38, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+/* line 21, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
 #arduino, #dj, #raspberry-pi, #camping, #surfing, #mushroom, #rock-trains, #motorcycle {
   text-align: center; }
 
-/* line 43, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+/* line 26, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
 #motorcycle {
   background-image: url("../img/motorcycles.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain; }
-  /* line 8, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  /* line 44, Users/Advocates/Sites/jordan-site/sass/_mixins.scss */
   #motorcycle span {
     display: none; }
-  /* line 11, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  /* line 47, Users/Advocates/Sites/jordan-site/sass/_mixins.scss */
   #motorcycle:hover {
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
     background: rgba(255, 35, 35, 0.5); }
-    /* line 14, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+    /* line 50, Users/Advocates/Sites/jordan-site/sass/_mixins.scss */
     #motorcycle:hover span {
       font-size: 3vmin;
       display: block; }
 
-/* line 47, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+/* line 30, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
 #dj {
   background-image: url("../img/native+instruments.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain; }
-  /* line 8, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  /* line 44, Users/Advocates/Sites/jordan-site/sass/_mixins.scss */
   #dj span {
     display: none; }
-  /* line 11, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  /* line 47, Users/Advocates/Sites/jordan-site/sass/_mixins.scss */
   #dj:hover {
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
     background: rgba(0, 216, 216, 0.5); }
-    /* line 14, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+    /* line 50, Users/Advocates/Sites/jordan-site/sass/_mixins.scss */
     #dj:hover span {
       font-size: 3vmin;
       display: block; }
 
-/* line 51, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+/* line 34, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
 #camping {
   background-image: url("../img/camping.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain; }
-  /* line 8, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  /* line 44, Users/Advocates/Sites/jordan-site/sass/_mixins.scss */
   #camping span {
     display: none; }
-  /* line 11, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  /* line 47, Users/Advocates/Sites/jordan-site/sass/_mixins.scss */
   #camping:hover {
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
     background: rgba(255, 35, 35, 0.5); }
-    /* line 14, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+    /* line 50, Users/Advocates/Sites/jordan-site/sass/_mixins.scss */
     #camping:hover span {
       font-size: 3vmin;
       display: block; }
 
-/* line 55, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+/* line 38, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
 #mushroom {
   background-image: url("../img/mushrooming.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain; }
-  /* line 8, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  /* line 44, Users/Advocates/Sites/jordan-site/sass/_mixins.scss */
   #mushroom span {
     display: none; }
-  /* line 11, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  /* line 47, Users/Advocates/Sites/jordan-site/sass/_mixins.scss */
   #mushroom:hover {
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
     background: rgba(0, 216, 216, 0.5); }
-    /* line 14, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+    /* line 50, Users/Advocates/Sites/jordan-site/sass/_mixins.scss */
     #mushroom:hover span {
       font-size: 3vmin;
       display: block; }
 
-/* line 59, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+/* line 42, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
 #arduino {
   clear: both;
   background-image: url("../img/arduino400.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain; }
-  /* line 8, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  /* line 44, Users/Advocates/Sites/jordan-site/sass/_mixins.scss */
   #arduino span {
     display: none; }
-  /* line 11, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  /* line 47, Users/Advocates/Sites/jordan-site/sass/_mixins.scss */
   #arduino:hover {
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
     background: rgba(0, 216, 216, 0.5); }
-    /* line 14, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+    /* line 50, Users/Advocates/Sites/jordan-site/sass/_mixins.scss */
     #arduino:hover span {
       font-size: 3vmin;
       display: block; }
 
-/* line 64, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+/* line 47, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
 #raspberry-pi {
   background-image: url("../img/rpi-400.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain; }
-  /* line 8, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  /* line 44, Users/Advocates/Sites/jordan-site/sass/_mixins.scss */
   #raspberry-pi span {
     display: none; }
-  /* line 11, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  /* line 47, Users/Advocates/Sites/jordan-site/sass/_mixins.scss */
   #raspberry-pi:hover {
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
     background: rgba(255, 35, 35, 0.5); }
-    /* line 14, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+    /* line 50, Users/Advocates/Sites/jordan-site/sass/_mixins.scss */
     #raspberry-pi:hover span {
       font-size: 3vmin;
       display: block; }
 
-/* line 70, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+/* line 53, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
 #rock-trains {
   clear: both;
   text-align: center;
@@ -664,15 +664,15 @@ header {
   background-position: top center;
   background-size: contain;
   margin-bottom: 1.5em; }
-  /* line 8, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  /* line 44, Users/Advocates/Sites/jordan-site/sass/_mixins.scss */
   #rock-trains span {
     display: none; }
-  /* line 11, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+  /* line 47, Users/Advocates/Sites/jordan-site/sass/_mixins.scss */
   #rock-trains:hover {
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
     background: rgba(17, 14, 14, 0.5); }
-    /* line 14, Users/Advocates/Sites/jordan-site/sass/modules/_hobby.scss */
+    /* line 50, Users/Advocates/Sites/jordan-site/sass/_mixins.scss */
     #rock-trains:hover span {
       font-size: 3vmin;
       display: block; }
@@ -727,58 +727,59 @@ header {
   padding: 2em 1em 1em 2em; }
 
 /*personal*/
-/* line 5, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
+/* line 23, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
 #personal {
   line-height: 0;
   clear: both; }
-  /* line 8, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
+  /* line 26, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
   #personal img {
     width: 100%;
     height: 100%; }
-  /* line 12, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
+  /* line 30, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
   #personal article {
     clear: both; }
-  /* line 15, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
+  /* line 33, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
   #personal p {
     font-size: small; }
 
-/* line 23, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
+/* line 41, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
 #about-img {
   width: 50%;
   float: left; }
   @media (max-width: 449px) {
-    /* line 23, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
+    /* line 41, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
     #about-img {
       width: 100%; } }
 
-/* line 26, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
+/* line 44, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
 #about {
   width: 50%;
   float: right;
   line-height: 1.5;
   padding: 0 1em 0 1em; }
   @media (max-width: 449px) {
-    /* line 26, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
+    /* line 44, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
     #about {
       width: 100%; } }
 
-/* line 31, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
+/* line 49, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
 #tribe-img {
+  height: 400px;
   width: 50%;
   float: right; }
   @media (max-width: 449px) {
-    /* line 31, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
+    /* line 49, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
     #tribe-img {
       width: 100%; } }
 
-/* line 34, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
+/* line 53, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
 #tribe {
   width: 50%;
   float: left;
   line-height: 1.5;
   padding: 1em; }
   @media (max-width: 449px) {
-    /* line 34, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
+    /* line 53, Users/Advocates/Sites/jordan-site/sass/modules/_personal.scss */
     #tribe {
       width: 100%; } }
 

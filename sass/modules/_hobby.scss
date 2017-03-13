@@ -1,23 +1,6 @@
 /*HOBBIES*/
 
-@mixin hobby-img ($url, $bckclr) {
-  background-image: url('../img/'+$url+'.png');
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: contain;
-  span {
-    display: none;
-  }
-  &:hover {
-    -webkit-transition: all 0.2s linear;
-    transition: all 0.2s linear;
-    span {
-      font-size: 3vmin;
-      display: block;
-    }
-    background: transparentize($bckclr, .5);
-  }
-}
+
 
 
 %hobby-box {
