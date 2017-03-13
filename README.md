@@ -10,3 +10,4 @@ Built using:
 - @include-media
 - normalize
 - photoshop
+- fontawesome

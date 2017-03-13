@@ -1,8 +1,41 @@
 /*projects*/
 
+
+
+#projects {
+  clear: both;
+  // padding-top: 3em;
+  line-height: 0;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
 #project-title {
   @include section-title($pale, $red)
 }
 
-#project1 {
+
+.full-project {
+  clear: both;
+}
+
+
+#p1-img{
+  @include half(left)
+}
+#p1 {
+  @include half(right)
+  line-height: 1.5;
+  padding: 1em;
+}
+#p2-img{
+  @include half(right)
+}
+#p2{
+  @include half(left)
+  line-height: 1.5;
+  padding: 1em;
+
 }

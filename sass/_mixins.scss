@@ -10,3 +10,11 @@
   background-color: $bckclr;
   font-weight: bold;
 }
+
+@mixin half($float){
+  width: 50%;
+  float: $float;
+  @include media('<phone'){
+    width: 100%
+  }
+}

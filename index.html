@@ -14,9 +14,6 @@
     <title>Jordan Carlson | iOS Developer</title>
 
     <!-- CSS -->
-    <!-- GOOGLE FONTS -->
-    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600italic,600,700,700italic,900,300italic,300,200italic,200' rel='stylesheet' type='text/css'>
 
     <!-- Main -->
     <link rel="stylesheet" href="css/normalize.css">
@@ -27,13 +24,12 @@
 
 <body>
     <header>
-        <!-- <img src="img/indieband.jpeg" /> -->
         <!-- background image used for initial push down -->
     </header>
 
     <nav class="main-nav">
         <div>
-            <a href="index.html" id="name">
+            <a href="#top" id="name">
                 <span>Jordan Carlson</span>
                 <span>iOS Developer</span>
             </a>
@@ -62,14 +58,14 @@
               <span class="res-menu">Email</span>
             </a>
           </li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#projects">Projects</a></li>
         </ul>
     </nav>
 
-    <div id="main">
+    <div class="main">
       <!-- for sticky nav -->
-      <section class="inner-wrapper" id="social">
+      <section class="inner-wrapper" id="social" >
           <article class="one-half" id="linkedin">
             <a href="https://www.linkedin.com/in/jordan-carlson/" target="_blank">
               <td><i class="fa fa-linkedin"></i></td>
@@ -88,131 +84,133 @@
       </section>
       <!-- apple lang end -->
 
-      <div id="personal">
-          <article id="about" >
+      <section id="personal" name="top">
+        <article>
+          <div id="about" >
               <h4>About Jordan Carlson</h4>
               <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
-              <p>
+
+              <!-- <p>
                   <button type="button" id="contact-button" href="#">Contact &rarr;</button>
-              </p>
-          </article>
-          <aside >
+              </p> -->
+          </div>
+          <div id="about-img">
               <img src="http://lorempixel.com/400/400/people/" />
-          </aside>
-          <article >
-              <img src="http://lorempixel.com/400/400/nature/" />
-          </article>
-          <aside id="tribe" >
-              <h3>Yurok. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h3>
-              <a href="#" target="_blank">Yurok Link</a>
-          </aside>
-      </div>
+          </div>
+        </article>
+        <article>
+          <div id="tribe" >
+            <h4>Yurok Tribe</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+                <button type="button" id="contact-button" href="#">Learn More &rarr;</button>
+            </p>
+                          <!-- <p>Yurok. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              <a href="#" target="_blank">Yurok Link</a> -->
+          </div>
+          <div id="tribe-img">
+            <img src="http://lorempixel.com/400/400/nature/" />
+          </div>
+        </article>
+      </section>
       <!-- end personal -->
 
-      <section id="projects">
-          <div id="project-title">Projects <i class="fa fa-code"></i></div>
-          <!-- <td><i class="fa fa-code"></i></td> -->
-          <div class="row">
-            <article class="res-half" id="project1">
-                <h4>Title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                <a href="#" target="_blank">Link</a>
-            </article>
-            <aside class="res-half">
-                <img src="http://lorempixel.com/400/400/sports/" />
-            </aside>
+      <section id="projects" name="projects">
+        <div id="project-title">Projects <i class="fa fa-code"></i></div>
+        <article class="full-project">
+          <div id="p1-img">
+            <img src="http://lorempixel.com/400/400/sports/" />
           </div>
-          <div class="row">
-            <article class="res-half">
-                <img src="http://lorempixel.com/400/400/cats/" />
-            </article>
-            <article class="res-half" id="project2">
-                <h4>Title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                <a href="#" target="_blank">Link</a>
-            </article>
+          <div  id="p1">
+              <h4>Title</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              <a href="#" target="_blank">Link</a>
           </div>
+        </article>
+        <article class="full-project">
+          <div id="p2-img">
+              <img src="http://lorempixel.com/400/400/cats/" />
+          </div>
+          <div id="p2">
+              <h4>Title</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              <a href="#" target="_blank">Link</a>
+          </div>
+        </article>
       </section>
       <!-- end projects -->
 
-      <div id="work-history">
-          <div id="work-title">Employment</div>
-          <!-- <div class="row"> -->
-          <article class="res-half job" id="job1">
-              <h4 class="company-title"><a href="#" target="_blank">Company</a></h4>
-              <p ><strong>Title</strong></p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-          </article>
-          <article class="res-half job" id="job2">
-              <h4 class="company-title"><a href="#" target="_blank">Company</a></h4>
-              <p><strong>Title</strong></p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-          </article>
-          <!-- </div> -->
+      <div id="work-history" name="resume">
+        <div id="work-title">Employment</div>
+        <article class="res-half job" id="job1">
+            <h4 class="company-title"><a href="#" target="_blank">Company</a></h4>
+            <p ><strong>Title</strong></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        </article>
+        <article class="res-half job" id="job2">
+            <h4 class="company-title"><a href="#" target="_blank">Company</a></h4>
+            <p><strong>Title</strong></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        </article>
       </div>
       <!-- end work history -->
-    </div>
-    <!-- end main for sticky nav -->
 
 
     <section id="hobbies">
-        <div id="hobby-title">
-            HOBBIES
-        </div>
-        <!-- <div class="row"> -->
-            <section class="res-fourth" id="motorcycle">
-                <span>MOTORCYCLES</span>
-            </section>
-            <section class="res-fourth" id="dj">
-                <span>DJ</span>
-            </section>
-            <section class="res-fourth" id="camping">
-                <span>CAMPING</span>
-            </section>
-            <section class="res-fourth" id="mushroom">
-                <span>MUSHROOMS</span>
-            </section>
-        <!-- </div> -->
-        <!-- <div class="row"> -->
-            <section class="one-half" id="arduino">
-                <span>ARDUINO</span>
-            </section>
-            <section class="one-half" id="raspberry-pi">
-                <span>RASPBERRY PI</span>
-            </section>
-        <!-- </div> -->
-        <!-- <div class="row"> -->
-            <section id="rock-trains">
-                <a href="http://www.imdb.com/title/tt1478620/" target="_blank">
-                    <span>THROWING ROCKS AT TRAINS</span>
-                </a>
-            </section>
-        <!-- </div> -->
+      <div id="hobby-title">
+          HOBBIES
+      </div>
+        <section class="res-fourth" id="motorcycle">
+            <span>MOTORCYCLES</span>
+        </section>
+        <section class="res-fourth" id="dj">
+            <span>DJ</span>
+        </section>
+        <section class="res-fourth" id="camping">
+            <span>CAMPING</span>
+        </section>
+        <section class="res-fourth" id="mushroom">
+            <span>MUSHROOMS</span>
+        </section>
+        <section class="one-half" id="arduino">
+            <span>ARDUINO</span>
+        </section>
+        <section class="one-half" id="raspberry-pi">
+            <span>RASPBERRY PI</span>
+        </section>
+      <section id="rock-trains">
+          <a href="http://www.imdb.com/title/tt1478620/" target="_blank">
+              <span>THROWING ROCKS AT TRAINS</span>
+          </a>
+      </section>
     </section>
     <!-- end hobbies -->
 
 
     <footer>
-        <p>&copy; Jordan Carlson</p>
-        <!-- <span id="social-links"> -->
-        <div>
-          <a href="https://www.linkedin.com/in/jordan-carlson/" target="_blank"><i class="fa fa-linkedin"></i></a>
-          <a href="https://github.com/savage-j" target="_blank"><i class="fa fa-github"></i></a>
-          <!-- <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li> -->
-        </div>
-        <!-- </span> -->
+      <p>&copy; Jordan Carlson</p>
+      <div>
+        <a href="https://www.linkedin.com/in/jordan-carlson/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/savage-j" target="_blank"><i class="fa fa-github"></i></a>
+        <!-- <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li> -->
       </div>
     </footer>
     <!-- end second footer -->
+
+  </div>
+  <!-- end main for sticky nav -->
 
     <!-- JS -->
 
     <!-- main -->
     <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
-    <script type="text/javascript" src="js/vendor.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
 
     <!-- End JS -->
 

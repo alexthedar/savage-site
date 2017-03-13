@@ -1,1 +1,39 @@
 /*personal*/
+
+
+
+#personal {
+  // padding-top: 3em;
+  line-height: 0;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  article {
+    clear: both;
+  }
+  p{
+    font-size: small;
+  }
+  clear: both;
+}
+
+
+
+#about-img{
+  @include half(left)
+}
+#about {
+  @include half(right)
+  line-height: 1.5;
+  padding: 0 1em 0 1em;
+}
+#tribe-img{
+  @include half(right)
+}
+#tribe{
+  @include half(left)
+  line-height: 1.5;
+  padding: 1em;
+
+}

@@ -5,7 +5,12 @@
   border: 0;
 }
 
+html {
+  min-height: 100%;
+}
+
 body {
+  min-height: 100%;
   padding-top: 550px;
   @include media('retina2x'){
     padding-top: 350px;
@@ -45,10 +50,10 @@ header {
   font-weight: bold;
 }
 
-#main {
+.main {
   background: $dark-grey;
   padding-top: 100px;
-  padding-bottom: 50px;
+  min-height: 100%;
 }
 
 .one-half {
@@ -64,6 +69,7 @@ header {
     width: 100%
   }
 }
+
 .res-fourth {
   width: 25%;
   float: left;
@@ -84,17 +90,14 @@ header {
   clear: both;
 }
 // article {
-//   background: $dark-grey;
-//   float: left;
-//   margin: 0 auto;
+//   margin: 0;
+//   padding: 0;
 //   width: 50%;
-//   height: auto;
-// }
+//   height: auto;}
 //
 // aside {
-//   background: $dark-grey;
-//   margin: 0 auto;
+//   margin: 0;
+//   padding: 0;
 //   width: 50%;
-//   float: right;
 //   height: auto;
 // }
